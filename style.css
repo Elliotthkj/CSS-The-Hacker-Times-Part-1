@@ -37,9 +37,13 @@ nav li {
 }
 
 nav {
+  background-color: white;
   text-align: center;
   border-top: .1rem solid #ddd;
   border-bottom: .1rem solid #ddd;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
 
 h1 {
@@ -64,4 +68,19 @@ h1 {
 
 .secondart p {
   width: 90%;
+}
+
+footer li {
+  display: inline;
+  padding: 2rem;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  border-top: .1rem solid #ddd;
+  border-bottom: .1rem solid #ddd;
+  /* position: sticky;
+  bottom: 0px;
+  z-index: 1; */
 }
